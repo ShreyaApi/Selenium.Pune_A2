@@ -70,6 +70,8 @@ public class Base_Test {
 		String browserName = System.getProperty("browser");
 		String url = System.getProperty("url");
 
+		
+		
 		if (browserName.contains("chrome")) {
 			driver = new ChromeDriver();
 		} else if (browserName.contains("firefox")) {
